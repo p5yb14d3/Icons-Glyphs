@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Psyfi-Font</title>
+    <meta name="description" content="Sci-Fi Space Astronomy Planetary Fonts">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/psyfi-font.css"></head>
+    <style>
+        body {
+        	font-family: sans-serif;
+        	font-size: 1em;
+        	line-height: 1.5;
+        	color: #333;
+        	text-align: center;
+        	padding: 0 10% 0 10%;
+        }
+        
+        .mls {
+        	margin-left: .25em;
+        }
+        
+        .fs1 {
+        	font-size: 64px;
+        }
+        
+        .fs1 div {
+        	display: inline-block;
+        	width: 200px;
+        	height: 200px;
+        	text-align: center;
+        }
+        
+        .fs {
+        	width: 64px;
+        }
+        
+        .fs1 span {
+        	font-size: 20px;
+        	display: block;
+        }
+        
+        pre {
+        	display: block;
+        	word-break: break-all;
+        	word-wrap: break-word;
+        	color: #333;
+        	background-color: #f5f5f5;
+        	border: 1px solid #ccc;
+        	border-radius: 4px;
+        	line-height: 1.5;
+			padding:20px;
+        }
+        
+		.offline_code {
+			display:none;
+		}
+		
+		.usage {
+			font-size: 20px;
+			font-weight:bold;
+			display:inline-block;
+		}
+		
+		.radio {
+			font-family: sans-serif;
+			font-size: 1em;
+			line-height: 1.5;
+		}
+
+		#option2:checked:checked ~ .offline_code {
+			display:block;
+		}
+
+		#option2:checked ~ .online_code {
+			display:none;
+		}
+		
+		footer {
+			font-family: sans-serif;
+			font-weight: bold;
+		}
+    </style>
+
+    <body>
+        <h1 id="psyfi-font">PSYFI-FONT</h1>
+        <h2 id="space-astronomy-planetary-and-scifi-icons">Space, Astronomy, Planetary and SciFi icons</h2>
+        <p>13 glyphs of some orbital, planetary, and sci-fi related icons. Released under the same license as Font-awesome. Enjoy.</p>
+		
+        <div id="usage-" class="usage">Usage</div>
+		<input type="radio" id="option1" name="selector" class="radio" checked="checked">Online</input>
+		<input type="radio" id="option2" name="selector" class="radio">Offline</input>
+		
+		<pre class="online_code"><code class="lang-html">&lt;link rel="stylesheet" href="https://p5yb14d3.github.io/cdn/psyfi-font/1.0.0/css/psyfi-font.min.css "&gt;</code></pre>
+        <pre class="offline_code"><code class="lang-html">&lt;link rel="stylesheet" href="css/psyfi-font.css "&gt;</code></pre>
+		<h3 id="to-include-them-in-your-webpage-">Calling an individual icon:</h3>
+		<pre><code class="lang-html">&lt;i class="fs fs-orbit"&gt;&lt;/i&gt;</code></pre>
+
+        <div class="fs1">
+            <div>
+                <i class="fs fs-compare"></i>
+                <span class="mls"> fs-compare</span>
+            </div>
+            <div>
+                <i class="fs fs-size"></i>
+                <span class="mls"> fs-size</span>
+            </div>
+            <div>
+                <i class="fs fs-distance"></i>
+                <span class="mls"> fs-distance</span>
+            </div>
+            <div>
+                <i class="fs fs-donate"></i>
+                <span class="mls"> fs-donate</span>
+            </div>
+            <div>
+                <i class="fs fs-sideview"></i>
+                <span class="mls"> fs-sideview</span>
+            </div>
+            <div>
+                <i class="fs fs-planet"></i>
+                <span class="mls"> fs-planet</span>
+            </div>
+            <div>
+                <i class="fs fs-sound"></i>
+                <span class="mls"> fs-sound</span>
+            </div>
+            <div>
+                <i class="fs fs-speed"></i>
+                <span class="mls"> fs-speed</span>
+            </div>
+            <div>
+                <i class="fs fs-topview"></i>
+                <span class="mls"> fs-topview</span>
+            </div>
+            <div>
+                <i class="fs fs-transporter"></i>
+                <span class="mls"> fs-transporter</span>
+            </div>
+            <div>
+                <i class="fs fs-saturn_tilt"></i>
+                <span class="mls"> fs-saturn_tilt</span>
+            </div>
+            <div>
+                <i class="fs fs-saturn"></i>
+                <span class="mls"> fs-saturn</span>
+            </div>
+            <div>
+                <i class="fs fs-orbit"></i>
+                <span class="mls"> fs-orbit</span>
+            </div>
+        </div>
+		
+		<footer><div>Copyright (c) 2018 p5yb14d3</div></footer>
+
+    </body>
+</html>
