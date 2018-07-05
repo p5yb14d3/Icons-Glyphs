@@ -15,4 +15,6 @@ http://creativecommons.org/licenses/by/4.0/
 ```html
 <i class="fs fs-orbit"></i>
 ```
-### See the list of icons [here]("https://p5yb14d3.github.io/icons/").
+### Webpage
+See the full list of icons [here]("https://p5yb14d3.github.io/icons/").
+
