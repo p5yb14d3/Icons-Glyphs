@@ -4,7 +4,7 @@
 13 glyphs icons that includes an orbit icon and other planetary and other sci-fi related icons.
 
 ## License
-Psyfi-Font is licensed under Creative Commons 4.0. Free for personal and commercial use.
+Psyfi-Font is released under the Creative Commons 4.0 License.
 http://creativecommons.org/licenses/by/4.0/
 
 ## Usage:
